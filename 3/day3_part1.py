@@ -1,7 +1,7 @@
 import numpy as np
 from collections import Counter
 
-with open('data.csv') as f:
+with open('3/data.csv') as f:
     rucksacks = []
     for line in f:
         rucksack = line.strip()

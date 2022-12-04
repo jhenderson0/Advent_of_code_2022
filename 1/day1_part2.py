@@ -1,7 +1,7 @@
 
 data = []
 elf = []
-with open('data.csv') as f:
+with open('1/data.csv') as f:
     for line in f:
         if line.strip() != '':
             elf.append(int(line.strip()))

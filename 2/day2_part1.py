@@ -1,4 +1,4 @@
-with open('data.csv') as f:
+with open('2/data.csv') as f:
     games = []
     for line in f:
         games.append(line.strip())
