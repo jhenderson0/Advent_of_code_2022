@@ -1,0 +1,4 @@
+I used my lecturer's solution to aid me this week. I was able to get a solution which stored all directories and their sub directories
+in one dictionary and all directories and their files in another. The only issue was I didn't account for directories having the same 
+name - so my code worked as planned unless directories had the same name. I then had a recursive function which checked the total size of 
+a given directory. 
